@@ -1,0 +1,108 @@
+
+nav {
+	width: 100vw;
+	height: 12vh;
+	background: linear-gradient(to right, #1a1a1d , #242427);
+	display: flex;
+	text-align: center;
+	padding-top: 20px;
+	color: #e2065e;
+	font-weight: bold;
+	font-size: 2rem;
+	border-bottom: 2px solid #950740	;
+}
+
+section{
+	background: linear-gradient(to right, #1a1a1d , #242427);
+	width: 100vw;
+	height: 100vh;
+}
+.PcChoice {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	margin-left: 80px;
+}
+
+
+
+section .input input {
+	width: 40vw;
+	border: none;
+	margin-left: 24%;
+	margin-top: 1cm;
+	text-align: center;
+	color: white ;
+	font-weight: 100;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #950740;
+	height: 1.5cm;
+	background-color: #1a1a1d;
+}
+
+section .input input:focus{
+	animation: Input;
+	outline: none;
+	border-bottom: 3px solid #e2065e;
+}
+
+section .input .btnPlay {
+	margin-left: 50px;
+	width: 4cm;
+	height: 1.5cm;
+	border-radius: 5px;
+	background-color: #1a1a1d;
+	border: 2px solid #950740;
+	color: #950740;
+	font-size: 1.4rem;
+	
+}
+section .input .btnPlay:hover {
+	transition: .3s;
+	background-color: #e2065e;
+	color: black;
+
+}
+section .game{
+	margin-left: 30%;
+}
+
+gameSpan img {
+	width: 300px;
+}
+
+gameSpan .PCScores{
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+	color: #e2065e	;
+	margin-left: 20%;
+	font-size: 2rem;
+	border-bottom: 3px solid #950740;
+}
+
+gameSpan .Scores{
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+	color: #e2065e	;
+	margin-left: 0;
+	font-size: 2rem;
+	border-bottom: 3px solid #950740;
+}
+.comment {
+	color: white;
+	margin-left: 45%;		
+	font-size: 2.3rem;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+}
+
+
+.Play{
+	margin-left: 450px;
+	margin-top: 1cm;
+
+}
+
+gameSpan{
+	margin-top: 2cm;
+	visibility:hidden;
+}
